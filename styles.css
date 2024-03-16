@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7b87ca;
+    color: #f7b6b6;
+  }
+  
+.to{color:black
+width::first-line}
+
+.card{width:80%;}
+
+
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8dede8e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    color: #555;
+  }
+  input[type="name"],
+  input[type="number"],
+  input[type="password"],
+  input[type="text"],
+  input[type="email"],
+  input[type="radio"],
+  input[type="checkbox"],
+  select {
+    width: calc(100% - 130px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="password"]:focus
+  ,input[type="name"]:focus,
+  input[type="number"]:focus
+   input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="radio"]:focus,
+  input[type="checkbox"]:focus,
+  select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  button[type="submit"] {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="range"] {
+    width: calc(100% - 140px);
+  }
+  
